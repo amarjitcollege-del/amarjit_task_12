@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Compound Interest Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="calculator">
+    <p class="eyebrow">JAVASCRIPT ASSIGNMENT</p>
+    <h1>Compound Interest Calculator</h1>
+    <p class="intro">Calculate how your money grows over time with compound interest.</p>
+
+    <section class="formula" aria-label="Compound interest formula">
+      <span>Formula</span>
+      <strong>A = P(1 + r/n)<sup>nt</sup></strong>
+    </section>
+
+    <section class="result">
+      <p>Final Amount</p>
+      <h2 id="amount">₹0.00</h2>
+      <p class="interest-label">Compound Interest: <strong id="interest">₹0.00</strong></p>
+    </section>
+
+    <div class="details">
+      <h3>Predefined Values</h3>
+      <p>Principal: <strong>₹10,000</strong></p>
+      <p>Annual Interest Rate: <strong>5%</strong></p>
+      <p>Compounded: <strong>Annually</strong></p>
+      <p>Time: <strong>3 years</strong></p>
+    </div>
+
+    <button id="calculateButton" type="button">Calculate Interest</button>
+    <p class="hint">Open your browser's developer console to see the result using console.log().</p>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
